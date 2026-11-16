@@ -667,12 +667,15 @@ select {
 }
 
 .laurel-icon {
+  margin: 0 auto;
   mix-blend-mode: multiply;
   max-width: 160px;
   margin-bottom: var(--space-1);
 }
 
 .item-title {
+  text-align: center;
+  text-wrap: balance;
   font-size: var(--fs-body);
   font-weight: 700;
   color: var(--grey-dark);
@@ -680,6 +683,7 @@ select {
 }
 
 .item-text {
+  text-align: center;
   font-size: var(--fs-small);
   color: var(--grey-dark-mid);
 }
