@@ -727,6 +727,7 @@ select {
   font-size: var(--fs-small);
   color: var(--grey-dark);
   margin-bottom: var(--space-2);
+  font-weight: 600;
 }
 
 .critic-meta {
